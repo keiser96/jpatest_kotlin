@@ -1,0 +1,11 @@
+server:
+  shutdown: graceful
+  port: 8090
+
+logging:
+  level:
+    com: INFO
+
+spring:
+  profiles:
+    active: local
